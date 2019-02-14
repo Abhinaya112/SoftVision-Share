@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45925" started-at="2019-02-14T11:33:47Z" finished-at="2019-02-14T11:34:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45925" started-at="2019-02-14T11:33:47Z" finished-at="2019-02-14T11:34:33Z">
+      <class name="com.training.sanity.tests.GooglForms">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.GooglForms@39aeed2f]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-02-14T17:03:47Z" finished-at="2019-02-14T17:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.GooglForms@39aeed2f]" name="setUp" is-config="true" duration-ms="23253" started-at="2019-02-14T17:03:47Z" finished-at="2019-02-14T17:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="GoogleForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.GooglForms@39aeed2f]" name="GoogleForm" duration-ms="19283" started-at="2019-02-14T17:04:11Z" data-provider="excel-inputs" finished-at="2019-02-14T17:04:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[What is Jira?]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test tracking Tool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Defect tracking tool]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[API test Tool]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Security Testing Tool]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleForm -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.training.sanity.tests.GooglForms@39aeed2f]" name="afterTest" is-config="true" duration-ms="2806" started-at="2019-02-14T17:04:30Z" finished-at="2019-02-14T17:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.training.sanity.tests.GooglForms -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
